@@ -1,0 +1,137 @@
+
+.header-section {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/slide2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.header-section img {
+  max-width: 80px;
+  height: 50px;
+  margin-top: 1%;
+}
+
+.nav-items {
+  margin-left: 33%;
+  padding: 1%;
+  width: 60%;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-left: 5%;
+  float: left;
+  color: #fff;
+  font-size: 1.25em;
+  text-align: center;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.hero-text {
+  color: #ffffff;
+  text-align: center;
+  font-size: 3.75em;
+  margin-top: 12%;
+}
+
+.about-section {
+  margin-top: 5%;
+}
+
+.about-section h3 {
+  background-color: #DBA860;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+  box-sizing:border-box;
+}
+
+.about-section p {
+  width: 100%;
+  padding: 3%;
+}
+
+.about-section h3:nth-of-type(2) {
+  margin-top: 20%;
+}
+
+.about-section img {
+  max-width: 100%;
+}
+
+.about-mission {
+  background-color:  rgba(219, 168, 96, 0.12);
+  height: 565px;
+}
+
+
+.gospel-in-action {
+  background: linear-gradient(rgba(56, 49, 40, 0.28), rgba(56, 49, 40, 0.28)), url(../images/involved.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.gospel-in-action img {
+  max-width: 70%;
+  margin-top: 20%;
+}
+
+.gospel-in-action h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20%;
+
+}
+
+.gospel-in-action h2 {
+  margin-top: 7%;
+  color: #fff;
+  text-align: center;
+  font-size: 2.25em;
+}
+
+.btn-getinvolved {
+  margin-left: 32%;
+  margin-top: 10%;
+  background-color: #DBA860;
+  width: 37%;
+  color: #fff;
+  font-size: 1.35em;
+  text-align: center;
+  padding: 2%;
+}
+
+
+.upcoming-event {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.upcoming-event img {
+  max-width: 100%;
+  margin-top: 3%;
+}
+
+.study-pray-section {
+  margin-top: 5%;
+}
+
+.pray-img {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.pray-img img {
+  max-width: 105%;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.pray-text {
+  background-color: #DBA860;
+  padding-left: 0px;
+  padding-right: 0px;
+}
