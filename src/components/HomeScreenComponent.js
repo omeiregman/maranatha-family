@@ -15,9 +15,7 @@ class HomeScreenComponent extends Component {
       <div>
         <header className="header-section">
           <nav>
-            <div>
-              <img src={img_logo}/>
-            </div>
+
             <ul className="nav-items">
               <li>Home</li>
               <li>About</li>
@@ -100,14 +98,11 @@ class HomeScreenComponent extends Component {
               <h3><i>Need </i>Prayers? <br/>We'll pray for you</h3>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-6 pray-text">
-              <h3><i>Need </i>Prayers? <br/>We'll pray for you</h3>
-            </div>
-            <div className="col-md-6 pray-img">
-              <img src={img_wepray} alt="We Pray"/>
-            </div>
-          </div>
+          <br/>
+          <br/>
+        </section>
+        <section className="footer-section">
+
         </section>
 
       </div>
