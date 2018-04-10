@@ -117,21 +117,104 @@
 
 .study-pray-section {
   margin-top: 5%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .pray-img {
   padding-right: 0px;
   padding-left: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .pray-img img {
-  max-width: 105%;
+  max-width: 104%;
   margin-left: 0px;
   padding-left: 0px;
   padding-right: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .pray-text {
   background-color: #DBA860;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.study-bible-section {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+.study-text {
+  background-color: #DBA860;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.study-img {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.study-img img {
+  max-width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.study-row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.pray-row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+
+.people-in-service {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.people-in-service h2 {
+  text-align: center;
+  font-size: 1.35em;
+  color: #DBA860;
+}
+
+.people-in-service h3 {
+  margin-top: 4%;
+  font-size: 1.25em;
+  text-align: center;
+}
+
+.people-in-service p {
+  font-size: 1.25em;
+}
+
+.people-in-service img {
+  margin-top: 7%;
+  max-width: 100%;
+  border: #DBA860 2px solid;
+}
+
+.map-section {
+
+}
+
+.footer-section {
+  background-color: #DBA860;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.footer-section p {
+  color: #fff;
+  padding: 2%;
 }

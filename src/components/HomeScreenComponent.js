@@ -7,6 +7,7 @@ import img_eventtwo from '../images/event2.jpg';
 import img_eventthree from '../images/event3.jpg';
 import img_wepray from '../images/wepray.jpg';
 import img_westudy from '../images/westudy.jpg';
+import img_pastorone from '../images/pastor1.jpg';
 
 
 class HomeScreenComponent extends Component {
@@ -90,7 +91,7 @@ class HomeScreenComponent extends Component {
         </section>
 
         <section className="study-pray-section">
-          <div className="row">
+          <div className="row pray-row">
             <div className="col-md-6 pray-img">
               <img src={img_wepray} alt="We Pray"/>
             </div>
@@ -98,13 +99,57 @@ class HomeScreenComponent extends Component {
               <h3><i>Need </i>Prayers? <br/>We'll pray for you</h3>
             </div>
           </div>
-          <br/>
-          <br/>
-        </section>
-        <section className="footer-section">
-
         </section>
 
+      <section className="study-bible-section">
+        <div className="row study-row">
+          <div className="col-md-6 study-text">
+            <h3><i>Join </i>Our <br/>Bible Study Group</h3>
+          </div>
+          <div className="col-md-6 study-img">
+            <img src={img_westudy} alt="We Study"/>
+          </div>
+        </div>
+      </section>
+
+      <section className="people-in-service">
+        <div className="container">
+          <h2>PEOPLE IN SERVICE</h2>
+          <div className="row">
+            <div className="col-sm-3">
+              <img src={img_pastorone} alt="Pastor"/>
+              <h3>PASTOR GODSON OKEREKE</h3>
+              <p>Senior Pastor</p>
+            </div>
+            <div className="col-sm-3">
+              <img src={img_pastorone} alt="Pastor"/>
+              <h3>PASTOR GODSON OKEREKE</h3>
+              <p>Senior Pastor</p>
+            </div>
+            <div className="col-sm-3">
+              <img src={img_pastorone} alt="Pastor"/>
+              <h3>PASTOR GODSON OKEREKE</h3>
+              <p>Senior Pastor</p>
+            </div>
+            <div className="col-sm-3">
+              <img src={img_pastorone} alt="Pastor"/>
+              <h3>PASTOR GODSON OKEREKE</h3>
+              <p>Senior Pastor</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="map-section">
+        <div className="row">
+
+        </div>
+      </section>
+
+      <section className="footer-section">
+          <p>Maranatha Family &copy; 2018</p>
+      </section>
       </div>
     );
   }
