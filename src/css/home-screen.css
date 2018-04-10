@@ -119,6 +119,7 @@
   margin-top: 5%;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  height: 500px;
 }
 
 .pray-img {
@@ -126,6 +127,7 @@
   padding-left: 0px;
   padding-bottom: 0px;
   margin-bottom: 0px;
+  height: 500px;
 }
 
 .pray-img img {
@@ -145,17 +147,20 @@
 .study-bible-section {
   margin-top: 0px !important;
   padding-top: 0px !important;
+  height: 500px;
 }
 
 .study-text {
-  background-color: #DBA860;
+  background-color: #F2F0EC;
   padding-left: 0px;
   padding-right: 0px;
+  height: 500px;
 }
 
 .study-img {
   padding-right: 0px !important;
   padding-left: 0px !important;
+  height: 500px;
 }
 
 .study-img img {
@@ -176,6 +181,37 @@
   margin-right: 0px !important;
 }
 
+.pray-text h3{
+  color: #ffffff;
+  font-size: 3em;
+  margin-left: 7%;
+  margin-top: 20%;
+}
+
+.study-text h3 {
+  color: #464646;
+  font-size: 3em;
+  margin-left: 7%;
+  margin-top: 20%;
+}
+
+.study-text p {
+  color: #A09F9F;
+  font-size: 1.15em;
+  margin-left: 7%;
+  margin-top: 3%;
+}
+
+.btn-biblestudy {
+  background-color: #DBA860;
+  padding: 2%;
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  margin-left: 7%;
+  margin-top: 5%;
+  font-weight: 500;
+}
 
 .people-in-service {
   margin-top: 5%;

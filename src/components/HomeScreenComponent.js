@@ -90,27 +90,34 @@ class HomeScreenComponent extends Component {
           </div>
         </section>
 
-        <section className="study-pray-section">
-          <div className="row pray-row">
-            <div className="col-md-6 pray-img">
-              <img src={img_wepray} alt="We Pray"/>
+      <section>
+          <div className="container">
+            <div className="study-pray-section">
+              <div className="row pray-row">
+                <div className="col-md-6 pray-img">
+                  <img src={img_wepray} alt="We Pray"/>
+                </div>
+                <div className="col-md-6 pray-text">
+                  <h3><i>Need </i>Prayers? <br/>We'll pray for you!</h3>
+                </div>
+              </div>
             </div>
-            <div className="col-md-6 pray-text">
-              <h3><i>Need </i>Prayers? <br/>We'll pray for you</h3>
-            </div>
-          </div>
-        </section>
 
-      <section className="study-bible-section">
-        <div className="row study-row">
-          <div className="col-md-6 study-text">
-            <h3><i>Join </i>Our <br/>Bible Study Group</h3>
+          <div className="study-bible-section">
+            <div className="row study-row">
+              <div className="col-md-6 study-text">
+                <h3><i>Join </i>Our <br/>Bible Study Group</h3>
+                <p>We invite anyone and everyone to attend our Sunday <br/>gatherings to study bible together.</p>
+                <div className="btn-biblestudy">JOIN OUR STUDY GROUP</div>
+              </div>
+              <div className="col-md-6 study-img">
+                <img src={img_westudy} alt="We Study"/>
+              </div>
+            </div>
           </div>
-          <div className="col-md-6 study-img">
-            <img src={img_westudy} alt="We Study"/>
           </div>
-        </div>
       </section>
+
 
       <section className="people-in-service">
         <div className="container">
